@@ -1,0 +1,27 @@
+@media (hover:hover) {
+
+    @media (min-width: 768px) {
+        
+    
+
+    #menu a:hover {
+        font-weight: bold;
+        font-size: 1.1em;
+        
+    }
+
+    #logo img:hover {
+        scale: 1.2;
+    
+    }
+
+    .card-entrada img:hover {
+        scale: 1.02;
+        z-index: 2;
+        border: 1px solid rgb(255, 255, 255, 0.2)
+    }
+
+    
+    }
+
+}

@@ -1,0 +1,242 @@
+@media (max-width: 575.98px) {
+
+
+    #menu {
+        z-index: 3;
+        position: fixed;
+        top: 60px;
+        display: none;
+        padding: 20px;
+    }
+    
+
+    #entrada-conteudo2 h1 {
+        cursor: pointer;
+        box-sizing: border-box;
+        display: block;
+        padding: 12px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-size: 5em;
+        color: #fff;
+        border-radius: 10px 0px 10px 0px;
+        transition: 1.02s;  
+    }
+
+ 
+
+    
+    #entrada-texto-conteudo h2 {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 5em;
+        color: beige;
+    }
+
+    
+    header {
+    
+        width: 10vh;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    #entrada-conteudo2 {
+    
+        background:url(img/fundo-fone-mina-degrade.png) no-repeat center ;
+        background-size: 90%;
+        max-height: 100vh;
+        min-height: 430px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #entrada-conteudo1 img {
+        padding: 20px;
+        width: 90%;
+    
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #menu {
+        z-index: 3;
+        position: fixed;
+        top: 60px;
+        display: none;
+        padding: 20px;
+    }
+    
+
+    #entrada-conteudo2 h1 {
+        cursor: pointer;
+        box-sizing: border-box;
+        display: block;
+        padding: 12px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-size: 6em;
+        color: #fff;
+        border-radius: 10px 0px 10px 0px;
+        transition: 1.02s;  
+    }
+
+ 
+
+    
+    #entrada-texto-conteudo h2 {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 6em;
+        color: beige;
+    }
+
+    
+    header {
+    
+        width: 10vh;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    #entrada-conteudo2 {
+    
+        background:url(img/fundo-fone-mina-degrade.png) no-repeat center ;
+        background-size: 90%;
+        max-height: 100vh;
+        min-height: 430px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #entrada-conteudo1 img {
+        padding: 20px;
+        width: 90%;
+    
+    }
+
+    
+
+    @media (hover:hover) {
+
+        .card-entrada img:hover {
+            z-index: 2;
+            scale: 1.02;
+            border: 1px solid rgb(255, 255, 255, 0.2)
+        }
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #entrada-conteudo2 {
+    
+        background:url(img/fundo-fone-mina-degrade.png) no-repeat center ;
+        background-size: 70%;
+        max-height: 100vh;
+        min-height: 430px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+ 
+
+
+    #entrada-texto-conteudo h2 {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 8em;
+        color: beige;
+    }
+
+    #entrada-conteudo1 {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+     }       
+
+     .card-entrada img {
+        
+        padding: 20px;
+        border-radius: 50px;
+        transition: 1.01s;
+        border: 1px solid rgb(255, 255, 255, 0);
+    }
+
+    #entrada-conteudo2 h1 {
+        cursor: pointer;
+        box-sizing: border-box;
+        display: block;
+        padding: 12px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-size: 7em;
+        color: #fff;
+        border-radius: 10px 0px 10px 0px;
+        transition: 1.02s;  
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #entrada-texto-conteudo h2 {
+        text-transform: uppercase;
+        font-size: 10em;
+        color: beige;
+    }
+
+    #entrada-conteudo1 img {
+        padding: 20px;
+
+        z-index: 0;
+    
+    }
+    #menu {
+        z-index: 1;
+        position: fixed;
+        top: 60px;
+        display: flex;
+        padding: 20px;
+    }
+     #entrada-conteudo2 {
+    
+        background:url(img/fundo-fone-mina-degrade.png) no-repeat center ;
+        background-size: 60%;
+        max-height: 100vh;
+        min-height: 430px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

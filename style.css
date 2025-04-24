@@ -1,0 +1,234 @@
+/* Conf gerais*/
+
+    
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+    padding: 15px;
+    display: block;
+    
+}
+
+body {
+    font-size: clamp(0.625rem, 0.375rem + 0.5208vw, 1rem);
+    font-family: "myriad-pro";
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(43, 43, 43);
+    
+    
+}
+
+/* container*/
+
+#container {
+   /* border: 1px solid rgb(60, 0, 255);*/
+    width: 99,5%;
+    height: 85vh;
+    
+}
+
+/* Header*/
+
+header {
+    
+    width: 80vh;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#menu {
+    z-index: 2;
+    position: fixed;
+    top: 60px;
+    display: flex;
+    padding: 20px;
+}
+
+#menu a {
+    text-transform: uppercase;
+    color: beige;
+    transition: 1.02s;
+    
+}
+
+
+#logo img:hover {
+
+    scale: 1.2;
+
+}
+
+#logo img {
+    width: 35px;
+    transition: 1.02s;
+    
+}
+
+#nav-principal {
+    display: flex;
+    justify-content: space-around ;
+    font-size: clamp(0.625rem, 0.375rem + 0.5208vw, 1rem);    
+    width: 100%;
+    scale: 1.2;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+}
+
+/* conteudo principal container*/
+
+#conteudo-principal-container {
+    
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    
+
+    
+}
+
+/* conteudo principal 1*/
+
+
+
+#entrada-conteudo1 {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}       
+
+
+.card-entrada img {
+    padding: 20px;
+    border-radius: 50px;
+    transition: 1.01s;
+    border: 1px solid rgb(255, 255, 255, 0);
+}
+
+.card-entrada img:hover {
+    scale: 1.02;
+    z-index: 2;
+    border: 1px solid rgb(255, 255, 255, 0.2)
+}
+
+/* conteudo texto*/
+
+#entrada-texto-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    min-height: 430px;
+}
+
+#entrada-texto-conteudo h2 {
+    text-transform: uppercase;
+    font-size: 12em;
+    color: beige;
+}
+
+
+
+
+/* conteudo principal 2*/
+
+#entrada-conteudo2 h1 {
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    padding: 12px;
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 10em;
+    color: #fff;
+    border-radius: 10px 0px 10px 0px;
+    transition: 1.02s;  
+}
+
+
+#entrada2-container {
+    background: linear-gradient(0deg, rgba(28, 28, 28, 0) 0%, rgb(126, 34, 34) 30%, rgb(215, 46, 46) 100%);
+    
+}
+
+#entrada-conteudo2 {
+    
+    background:url(img/fundo-fone-mina-degrade.png) no-repeat center;
+    height: 100vh;
+    min-height: 430px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* rodape */
+
+#rodape-container {
+    width: 100%;
+    background: rgb(43, 43, 43);
+    
+    
+}
+
+#rodape-conteudo {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+#box-logo img {
+    width: 100px;
+}
+
+#box-contato, #box-linkedin, #box-logo,
+#box-produtos {
+    
+    line-height: 3;
+    
+    
+}
+
+#box-produtos a, #box-linkedin a{
+    color: bisque;
+    
+}
+
+
+#box-produtos a:hover, #box-linkedin a:hover{
+    text-decoration: underline;
+}
+
+#box-contato {
+    color: bisque;
+}
