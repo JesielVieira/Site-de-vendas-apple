@@ -232,7 +232,7 @@
      #entrada-conteudo2 {
     
         background:url(img/fundo-fone-mina-degrade.png) no-repeat center ;
-        background-size: 60%;
+        background-size: 50%;
         max-height: 100vh;
         min-height: 430px ;
         display: flex;
