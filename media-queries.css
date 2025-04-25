@@ -67,6 +67,83 @@
     
     }
 
+    #entrada-texto-container {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5vh;
+        min-height: 430px;
+    }
+
+    #conheca-tecnologias {
+        min-height: 200px;
+    }
+
+    #conheca-tecnologias-conteudo {
+        margin-right: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #conheca-tecnologias-conteudo h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: bisque;
+    }
+    
+    
+    #atualizacoes-tecnologias {
+        background: #e5cd90;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 300px;
+    }
+
+    #lista-container {
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    #ios-16, #ios-17, #ios-18 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 9vh;
+        border: 1px solid rgb(215, 46, 46);
+        border-radius: 20px 0 20px 0;
+        margin-bottom: 10px;
+    }
+
+    #ios-16 h1, #ios-17 h1, #ios-18 h1 {
+        text-transform: uppercase;
+        line-height: 1;
+        font-size: 3.5em;
+        color: rgb(215, 46, 46) ;
+        margin-bottom: 10px;
+    }
+
+    #rodape-container {
+        width: 100%;
+        background: rgb(43, 43, 43);
+        
+        
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -148,6 +225,76 @@
         }
 
     }
+
+    #entrada-texto-container {
+    
+        display: flex;
+        
+        width: 100%;
+        height: 5vh;
+        min-height: 430px;
+    }
+
+
+    #conheca-tecnologias-conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: none;
+        margin: 0 auto;
+        
+    }
+
+    #conheca-tecnologias-conteudo h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: bisque;
+    }
+
+    #atualizacoes-tecnologias {
+        background: #e5cd90;
+        height: 50vh;
+    }
+
+    #lista-container {
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #ios-16, #ios-17, #ios-18 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 9vh;
+        border: 1px solid rgb(215, 46, 46);
+        border-radius: 20px 0 20px 0;
+        margin-bottom: 10px;
+    }
+
+    #ios-16 h1, #ios-17 h1, #ios-18 h1 {
+        text-transform: uppercase;
+        line-height: 1;
+        font-size: 3.5em;
+        color: rgb(215, 46, 46) ;
+        margin-bottom: 10px;
+    }
+    
+
+    #rodape-container {
+        width: 100%;
+        background: rgb(43, 43, 43);
+    
+        
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
