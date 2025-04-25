@@ -22,15 +22,47 @@ ul {
     
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     font-size: clamp(0.625rem, 0.375rem + 0.5208vw, 1rem);
     font-family: "myriad-pro";
     font-weight: 400;
     font-style: normal;
     background: rgb(43, 43, 43);
+    animation: blur 1s;
     
     
 }
+
+/* animações*/
+
+@keyframes blur {
+
+    from {filter: blur(10px); scale: 1.5;}
+    to {filter: blur(0); scale: 1;}
+
+}
+
+@keyframes efeitotexto {
+    from {filter: blur(0);}
+    25% {filter: blur(0.1px); scale: 1.1;}
+    50% {filter: blur(0.2px); scale: 1.2; color:rgb(215, 46, 46);}
+    75% {filter: blur(0.1px); scale: 1.1;}
+    to {filter: blur(0);}
+}
+
+    
+
+.efeito-texto {
+    animation: efeitotexto 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+
 
 /* container*/
 
@@ -180,12 +212,140 @@ header {
 #entrada-conteudo2 {
     
     background:url(img/fundo-fone-mina-degrade.png) no-repeat center bottom;
-    background-size: 40%;
+    background-size: 35%;
     height: 100vh;
-    min-height: 816px ;
+    min-height: 806px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+/* Conteudo secundario */
+
+
+
+
+#conteudo-secundario-container {
+    
+    width: 100%;
+    height: 100vh;
+}
+
+/* Conteudo conheça tec */
+
+#conheca-tecnologias {
+    
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(215, 46, 46);
+}
+
+#conheca-tecnologias-conteudo {
+    margin-right: 100px;
+    padding: 20px;
+    text-align: end;
+    
+}
+
+#conheca-tecnologias-conteudo h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: bisque;
+}
+
+#conheca-tecnologias-conteudo p {
+    font-size: 1em;
+    line-height: 4;
+    color: bisque;
+}
+
+#conheca-tecnologias-conteudo a{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ddc32f;
+    border-left: 1px solid rgb(221, 195, 47);
+    border-right: 1px solid rgb(221, 195, 47);
+    border-radius: 20px;
+    padding: 5px;
+    transition: 1.01s;
+}
+
+#conheca-tecnologias-conteudo a:hover {
+    background-color: #ddc32f;
+    color: rgb(0, 0, 0);
+}
+
+/* att tec */
+
+#atualizacoes-tecnologias {
+    background: #e5cd90;
+    height: 50vh;
+}
+
+#atualizacoes-tecnologias-texto {
+    display: flex;
+    justify-content: center;   
+}
+
+#atualizacoes-tecnologias-texto h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color:  rgb(215, 46, 46);
+    font-size: 2.5em;
+}
+
+
+
+#lista-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ios-16, #ios-17, #ios-18 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30vh;
+    border: 1px solid rgb(215, 46, 46);
+    border-radius: 20px 0 20px 0;
+}
+
+#ios-16 h1, #ios-17 h1, #ios-18 h1 {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 4.5em;
+    color: rgb(215, 46, 46) ;
+    margin-bottom: 10px;
+}
+
+#ios-16 p, #ios-17 p, #ios-18 p {
+    font-size: 1em;
+    color: rgb(0, 0, 0) ;
+}
+
+#ios-16 a, #ios-17 a, #ios-18 a {
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 1.7em;
+    border-radius: 0 20px 0 20px;
+    background-color: rgb(215, 46, 46);
+    padding: 5px;
+    color: #e5cd90;
+}
+
+#lista-container a:hover {
+
+    text-decoration: underline;
 
 }
 
