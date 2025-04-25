@@ -33,8 +33,6 @@ body {
     font-style: normal;
     background: rgb(43, 43, 43);
     animation: blur 1s;
-    
-    
 }
 
 /* animações*/
@@ -48,10 +46,10 @@ body {
 
 @keyframes efeitotexto {
     from {filter: blur(0);}
-    25% {filter: blur(0.1px); scale: 1.1;}
-    50% {filter: blur(0.2px); scale: 1.2; color:rgb(215, 46, 46);}
-    75% {filter: blur(0.1px); scale: 1.1;}
-    to {filter: blur(0);}
+    25%  {filter: blur(0.1px); scale: 1.1;}
+    50%  {filter: blur(0.2px); scale: 1.2; color:rgb(215, 46, 46);}
+    75%  {filter: blur(0.1px); scale: 1.1;}
+    to   {filter: blur(0);}
 }
 
     
@@ -200,7 +198,7 @@ header {
     font-size: 10em;
     color: #fff;
     border-radius: 10px 0px 10px 0px;
-    transition: 1.02s;  
+    transition: 1.02s;
 }
 
 
@@ -212,7 +210,7 @@ header {
 #entrada-conteudo2 {
     
     background:url(img/fundo-fone-mina-degrade.png) no-repeat center bottom;
-    background-size: 35%;
+    background-size: 750px;
     height: 100vh;
     min-height: 806px;
     display: flex;
@@ -291,6 +289,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     min-height: 300px;
+    
 }
 
 #atualizacoes-tecnologias-texto {

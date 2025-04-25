@@ -105,7 +105,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        min-height: 300px;
+        min-height: 400px;
     }
 
     #lista-container {
@@ -115,6 +115,7 @@
         flex-wrap: wrap;
         align-items: center;
         
+        
     }
 
     #ios-16, #ios-17, #ios-18 {
@@ -122,8 +123,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 50px;
         width: 80%;
-        height: 9vh;
         border: 1px solid rgb(215, 46, 46);
         border-radius: 20px 0 20px 0;
         margin-bottom: 10px;
@@ -132,16 +133,30 @@
     #ios-16 h1, #ios-17 h1, #ios-18 h1 {
         text-transform: uppercase;
         line-height: 1;
-        font-size: 3.5em;
+        font-size: 2em;
         color: rgb(215, 46, 46) ;
         margin-bottom: 10px;
+    }
+
+    #ios-16 a, #ios-17 a, #ios-18 a {
+        margin-top: 10px;
+        line-height: 2;
+        font-size: 1em;
+        border-radius: 0 20px 0 20px;
+        background-color: rgb(215, 46, 46);
+        padding: 5px;
+        color: #e5cd90;
     }
 
     #rodape-container {
         width: 100%;
         background: rgb(43, 43, 43);
-        
-        
+    }
+
+    #ios-16 p, #ios-17 p, #ios-18 p {
+        font-size: 1em;
+        line-height: 0;
+        color: rgb(0, 0, 0) ;
     }
 
 }
@@ -257,6 +272,7 @@
     #atualizacoes-tecnologias {
         background: #e5cd90;
         height: 50vh;
+        min-height: 400px;
     }
 
     #lista-container {
@@ -273,20 +289,31 @@
         justify-content: center;
         align-items: center;
         width: 80%;
-        height: 9vh;
+        height: 50px;
         border: 1px solid rgb(215, 46, 46);
         border-radius: 20px 0 20px 0;
         margin-bottom: 10px;
     }
 
+    
     #ios-16 h1, #ios-17 h1, #ios-18 h1 {
         text-transform: uppercase;
-        line-height: 1;
-        font-size: 3.5em;
+       
+        font-size: 2.5em;
         color: rgb(215, 46, 46) ;
         margin-bottom: 10px;
     }
     
+    #ios-16 a, #ios-17 a, #ios-18 a {
+        margin-top: 10px;
+        line-height: 2;
+        font-size: 1em;
+        border-radius: 0 20px 0 20px;
+        background-color: rgb(215, 46, 46);
+        padding: 5px;
+        color: #e5cd90;
+    }
+
 
     #rodape-container {
         width: 100%;
@@ -352,6 +379,66 @@
         border-radius: 10px 0px 10px 0px;
         transition: 1.02s;  
     }
+
+    #conheca-tecnologias-conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: none;
+        margin: 0 auto;
+        
+    }
+
+    #lista-container {
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #ios-16, #ios-17, #ios-18 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 80%;
+        border: 1px solid rgb(215, 46, 46);
+        border-radius: 20px 0 20px 0;
+        margin-bottom: 10px;
+    }
+
+    #ios-16 h1, #ios-17 h1, #ios-18 h1 {
+        text-transform: uppercase;
+        line-height: 0;
+        font-size: 2.5em;
+        color: rgb(215, 46, 46) ;
+        margin-top: 10px ;
+        
+    }
+
+    #ios-16 a, #ios-17 a, #ios-18 a {
+        margin-top: 10px;
+        line-height: 2;
+        font-size: 1.2em;
+        border-radius: 0 20px 0 20px;
+        background-color: rgb(215, 46, 46);
+        padding: 5px;
+        color: #e5cd90;
+    }
+
+    #atualizacoes-tecnologias {
+        background: #e5cd90;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 400px;
+    }
+
     
 }
 
@@ -386,4 +473,17 @@
         align-items: center;
         justify-content: center;
     }
+
+    #ios-16, #ios-17, #ios-18 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 27%;
+        border: 1px solid rgb(215, 46, 46);
+        border-radius: 20px 0 20px 0;
+        margin-bottom: 10px;
+    }
+
+    
 }
