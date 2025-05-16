@@ -1,0 +1,154 @@
+
+button {
+    border: none;
+}
+
+#menu-cores {
+    z-index: 2;
+    bottom: 60px;
+    display: flex;
+    padding: 20px;
+    align-items: end;
+    margin: 0 auto;
+}
+
+#nav-principal-cores {
+    display: flex;
+    width: 20vh;
+    height: 2vh;
+    scale: 1.2;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 10px;
+    
+    
+}
+
+#cores {
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#cor1, #cor2, #cor3 {
+    display: flex;
+    border-radius: 20px;
+    height: 2vh;
+    width: 20px;
+    padding: 5px;
+}
+
+#cor1 {
+    
+    background: black;
+}
+
+#cor2 {
+    background: white;
+}
+
+#cor3 {
+    background: rgb(20, 14, 182);
+}
+
+
+
+#video-iphone-bot {
+    
+    height: 30vh;
+    background-color: white;
+    z-index: 2;
+}
+
+#container-iphone16 {
+    height: 200vh;
+    background-color: rgb(34, 34, 34);
+    
+}
+
+#video-iphone-bot img{
+
+transition: 1.2s;
+
+}
+#video-iphone-bot img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#container-produto-escolhas {
+    height: 100vh;
+    display: flex;
+}
+
+#foto-produto {
+    display: flex;
+    width: 50%;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    
+}
+
+#foto-produto video {
+   width: 100%;
+   cursor: pointer;
+   transition: 1.01s;
+}
+
+#video-inicial-container {
+    display: flex;
+    width: 100%;
+}
+
+#video-inicial {
+    cursor: pointer;
+    transition: 1.01s;
+    display: flex;
+}
+
+#iphonebanner {
+    
+    width: 100%;
+ }
+ 
+
+
+#escolha-versao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #ffffff url(fotos/fluides.png) center center no-repeat;
+    z-index: 2;
+   
+   
+
+}
+
+#escolha-versao h1 {
+    display: flex;
+    font-size: 2.5em;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+button:active {
+    border: 10px solid red;
+}
+
+#especificacoes {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    justify-content: space-around;
+    margin: 0 auto;
+}
